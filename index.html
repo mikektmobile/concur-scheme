@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Concur</title>
+    <title>Redirect to Concur</title>
+
+    <!-- Automatically redirect to the Concur app after 0 seconds -->
+    <meta http-equiv="refresh" content="0;url=concur://">
 </head>
 <body>
-    <h1>Open Concur App</h1>
-    <p>Click the link below to open the Concur app:</p>
-    <a href="concur://">Open Concur</a>
+    <!-- You can leave this as a fallback message in case the redirect doesn't work -->
+    <p>If you are not redirected, <a href="concur://">click here to open Concur.</a></p>
 </body>
 </html>
